@@ -36,3 +36,9 @@ adapters:
     schema: "public"
     username: "postgres"
     password: "admin"
+logging:
+  level:
+    org.springframework.r2dbc.core: DEBUG
+    io.r2dbc.postgresql.QUERY: DEBUG
+    org.springframework.dao: DEBUG
+    co.com.bancolombia: DEBUG

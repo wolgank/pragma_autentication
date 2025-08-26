@@ -1,6 +1,5 @@
 package co.com.bancolombia.usecase.user;
 
-import java.math.BigInteger;
 
 import co.com.bancolombia.model.user.User;
 import co.com.bancolombia.model.user.gateways.UserRepository;
@@ -16,7 +15,10 @@ public class UserUseCase {
     public Flux<User> getAllUsers(){
         return userRepository.getAllUsers();
     }
-    public Mono<User> getUserById(BigInteger id){
+    public Mono<User> getUserById(Long id){
         return userRepository.getUserById(id);
+    }
+    public Mono<Boolean> existsByEmail(String email){
+        return userRepository.existsByEmail(email);
     }
 }

@@ -28,5 +28,6 @@
         "titleBar.inactiveBackground": "#dd053199",
         "titleBar.inactiveForeground": "#e7e7e799"
     },
-    "peacock.remoteColor": "#dd0531"
+    "peacock.remoteColor": "#dd0531",
+    "java.configuration.updateBuildConfiguration": "interactive"
 }

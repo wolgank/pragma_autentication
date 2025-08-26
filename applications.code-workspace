@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../../java_reactivo/applications"
+		},
+		{
+			"path": "../../java_reactivo/domain"
+		},
+		{
+			"path": "../../java_reactivo/infrastructure"
+		}
+	],
+	"settings": {
+		"java.compile.nullAnalysis.mode": "disabled"
+	}
+}

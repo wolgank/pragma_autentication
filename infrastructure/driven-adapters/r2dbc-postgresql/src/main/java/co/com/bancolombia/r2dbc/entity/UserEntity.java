@@ -1,7 +1,6 @@
 package co.com.bancolombia.r2dbc.entity;
 
 import java.math.BigDecimal;
-import java.math.BigInteger;
 import java.time.LocalDate;
 
 import org.springframework.data.annotation.Id;
@@ -20,7 +19,7 @@ import lombok.Setter;
 @Setter
 public class UserEntity {
     @Id
-    private BigInteger id;
+    private Long id;
 
     @Column("name")
     private String name;
@@ -40,6 +39,6 @@ public class UserEntity {
     @Column("email")
     private String email;
 
-    @Column("salary")
-    private BigDecimal salary;
+    @Column("salary_base")
+    private BigDecimal salaryBase;
 }
